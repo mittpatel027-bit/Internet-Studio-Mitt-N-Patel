@@ -1,0 +1,16 @@
+h1, h2 {
+    font-family: " Sacramento", sans-serif;
+}
+
+p {
+    font-family: "Alice", serif;
+}
+
+table, th, td {
+     border: 1px solid;
+
+}
+
+th, td {
+  padding: 10px;
+}
