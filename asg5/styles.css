@@ -1,25 +1,89 @@
-/* 
-      .--..--..--..--..--..--.
-    .' \  (`._   (_)     _   \
-  .'    |  '._)         (_)  |
-  \ _.')\      .----..---.   /
-  |(_.'  |    /    .-\-.  \  |
-  \     0|    |   ( O| O) | o|
-   |  _  |  .--.____.'._.-.  |
-   \ (_) | o         -` .-`  |
-    |    \   |`-._ _ _ _ _\ /
-    \    |   |  `. |_||_|   |
-    | o  |    \_      \     |     -.   .-.
-    |.-.  \     `--..-'   O |     `.`-' .'
-  _.'  .' |     `-.-'      /-.__   ' .-'
-.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
-`-._  `.  |________/\_____|    `-.'
-   .'   ).| '=' '='\/ '=' |
-   `._.`  '---------------'
-           //___\   //___\
-             ||       ||
-             ||_.-.   ||_.-.
-            (_.--__) (_.--__)
-       
+body {
+  font-family: "Abril Fatface", serif;
+  background-color: #8c8c89;
+  background-image: url(http://www.transparenttextures.com/patterns/batthern.png);
+}
 
- Insert all your glorious CSS styles below! */
+h1 {
+  font-family: "Abril Fatface", serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p{
+  font-family: "Poppins", sans-serif;
+  color: #555;
+  line-height: 1.6;
+}
+
+.guest-section {
+  margin: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ .guest-section img {
+   width: 150px;
+   height: auto;
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+        }
+
+ .guest-section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .menu-section {
+            background-color: #e1ecf4;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        form {
+            background-color: #e1f4e1;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="radio"] {
+            margin: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
