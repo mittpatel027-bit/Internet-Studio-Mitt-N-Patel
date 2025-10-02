@@ -14,6 +14,11 @@ p {
     color: #7b9160;
 }
 
+ul, li  {
+    font-family: "Open Sans", serif;
+    color: #7b9160;
+}
+
 .assignment-list {
     margin: 20px;
     padding: 15px;
