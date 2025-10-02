@@ -15,18 +15,18 @@ p {
 }
 
 .assignment-list {
-  margin: 20px;
-  padding: 15px;
-  background-color: #F4E9D7;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 15px;
+    background-color: #F4E9D7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 }
 
 .assignment-list img {
-width: 150px;
-height: auto;
-border-radius: 50%;
-float: left;
-margin-right: 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
  }
