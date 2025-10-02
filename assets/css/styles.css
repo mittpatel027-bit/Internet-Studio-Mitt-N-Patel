@@ -11,7 +11,7 @@ h2 {
 
 p {
     font-family: "Open Sans", serif;
-    color: #B8C4A9;
+    color: #7b9160;
 }
 
 .assignment-list {
@@ -23,7 +23,7 @@ p {
 
 }
 
-.guest-section img {
+.assignment-list img {
 width: 150px;
 height: auto;
 border-radius: 50%;
