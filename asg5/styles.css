@@ -18,7 +18,7 @@ p{
 .guest-section {
   margin: 20px;
   padding: 15px;
-  background-color: #95a1a1;
+  background-color: #a4aaaa;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -49,7 +49,7 @@ p{
         }
 
         .menu-section {
-            background-color: #2d4252;
+            background-color: #5d6870;
             padding: 20px;
             margin: 20px;
             border-radius: 10px;
