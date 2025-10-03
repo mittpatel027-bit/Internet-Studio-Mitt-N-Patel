@@ -26,10 +26,10 @@ p{
  .guest-section img {
    width: 150px;
    height: auto;
-            border-radius: 50%;
-            float: left;
-            margin-right: 20px;
-        }
+   border-radius: 
+   float: left;
+   margin-right: 20px;
+}
 
  .guest-section::after {
             content: "";
