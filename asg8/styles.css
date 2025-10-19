@@ -19,6 +19,15 @@
 
 html {font-size: 16px;}
 
+.domainame {
+  margin: 40px auto;
+  max-width: 800px;
+   padding: 20px;
+ background-color: rgb(116, 160, 149);
+  border-radius: 10px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, .5);
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: false;
@@ -76,11 +85,3 @@ li{
   font-family: "Open Sans", sans-serif;
 }
 
-.domainame {
-  margin: 40px auto;
-  max-width: 800px;
-   padding: 20px;
- background-color: rgb(116, 160, 149);
-  border-radius: 10px;
-  box-shadow: 0 0 0 rgba(0, 0, 0, .5);
-}
