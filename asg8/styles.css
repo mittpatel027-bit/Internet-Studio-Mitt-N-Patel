@@ -65,3 +65,15 @@ small,
 .text-small {
   font-size: 0.56em;
 }
+
+body{
+  padding-top: 115px;
+  background: url(https://images.unsplash.com/photo-1710162734135-8dc148f53abe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632) repeat-y;
+  background-size: 3400px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+li{
+  font-family: "Open Sans", sans-serif;
+}
