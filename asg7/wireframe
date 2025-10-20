@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website Template (Please update for full credit)</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wire">
+        <h1>Reading Questions</h1>
+        <p>Sketching wireframes by hand offers speed and flexibility, making it ideal for early brainstorming and quick iteration. It allows designers to explore layout ideas freely without being constrained by software tools. However, hand-drawn wireframes can be imprecise and harder to share or revise, especially in collaborative settings. Wireframe software provides cleaner visuals, reusable components, and easier documentation, but it may slow down the creative process and require familiarity with the tool.</p>
+        <br>
+        <p>For my project, which focuses on semantic clarity and accessible web design, starting with hand sketches and refining them in wireframe software works best. Sketching helps me quickly explore layout ideas and structure, while software ensures precision and consistency when translating those ideas into a usable framework. This combination supports both creative freedom and technical rigor.</p>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
