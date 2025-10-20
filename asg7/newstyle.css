@@ -1,0 +1,56 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/arvo-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* arya-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arya';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/arya-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+h1, h2 { 
+    font-family: 'Arvo';
+ }
+
+p, h3, li {
+    font-family: 'Arya';
+ }
+
+header {
+   text-align: center;
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.8);
+}
+ 
+  aside {
+   margin: 40px auto;
+   max-width: 800px;
+   padding: 20px;
+   background-color: lightblue;
+   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+ }
+
+  .image {
+   width: 600px;
+   height: 600px;
+   padding: 100px;
+}
+
+.wire {
+   margin: 40px auto;
+   max-width: 800px;
+   padding: 20px;
+   background-color: rgb(190, 228, 197);
+   border-radius: 10px;
+   box-shadow: 0 0 0 rgba(0, 0, 0, .5);
+}
+
