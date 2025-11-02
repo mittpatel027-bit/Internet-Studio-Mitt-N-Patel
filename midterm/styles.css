@@ -1,16 +1,21 @@
-.nav {
+
+
+
+
+
+nav {
 	width: 100%;
 	display: flex;
 	align-content: space-between;
 }
 
-.nav li {
+nav li {
 	list-style-type: none;
 	
 	
 }
 
-.nav li a {
+nav li a {
 	text-decoration: none;
 	margin: 12px 5px 12px 5px;
 	padding: 10px;
@@ -20,7 +25,9 @@
 	
 }
 
-.nav li a:hover {
+nav li a:hover {
 	border-color: rgb(176, 230, 207);
 	background-color: rgb(114, 179, 146);
 	color: white;
+
+}
