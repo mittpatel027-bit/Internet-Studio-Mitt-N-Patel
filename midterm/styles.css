@@ -161,11 +161,17 @@ main {
    margin: 40px auto;
    max-width: 800px;
    padding: 20px;
-   background-color: lightcoral;
+   background-color: rgb(207, 218, 255);
    border-radius: 10px;
    box-shadow: 0 0 0 rgba(0, 0, 0, .5);
-   text-align: center;
+   
 }
+
+.highlights p{
+  font-family: "karb", serif;
+  font-size: 2em;
+}
+
   aside {
    margin: 40px auto;
    max-width: 800px;
