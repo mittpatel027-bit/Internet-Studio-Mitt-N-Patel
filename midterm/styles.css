@@ -157,7 +157,7 @@ main {
 }
 
 /* Highlights Section */
- .highlight-items {
+ .highlights {
    margin: 40px auto;
    max-width: 800px;
    padding: 20px;
@@ -167,9 +167,18 @@ main {
    
 }
 
-.highlights p{
+.highlight-item p, li{
   font-family: "krub", serif;
   font-size: 2em;
+}
+
+.highlight-item {
+  background: #e8f5e9;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
   aside {
