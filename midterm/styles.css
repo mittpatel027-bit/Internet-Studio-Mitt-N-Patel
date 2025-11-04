@@ -100,32 +100,59 @@ small,
 
 }
 
-nav {
-	width: 100%;
-	display: flex;
-	align-content: space-between;
+body {
+  font-family: 'Lora', serif;
+  color: #333;
+  background-color: #f7f7f7;
+  line-height: 1.6;
 }
 
-nav li {
-	list-style-type: none;
-	
-	
+header {
+  background-color: #274e13;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
-nav li a {
-	text-decoration: none;
-	margin: 12px 5px 12px 5px;
-	padding: 10px;
-	background-color: rgb(181, 230, 197);
-	border: 3px rgb(94, 167, 106) solid;
-	border-radius: 6px;
-	
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  
 }
 
-nav li a:hover {
-	border-color: rgb(176, 230, 207);
-	background-color: rgb(114, 179, 146);
-	color: white;
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Cinzel Decorative', serif;
+  font-weight: 700;
+  padding: 8px 12px;
+  transition: color 0.5s;
+}
+
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Cinzel Decorative', serif;
+  font-weight: 700;
+  padding: 8px 12px;
+  transition: color 0.5s;
+}
+
+
+
+header nav ul li a:hover {
+  color: #4CAF50;
+}
+
+main {
+  margin-top: 80px;
+  padding: 20px;
 
 }
 
