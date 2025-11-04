@@ -59,6 +59,7 @@ body {
 
 p {
   font-size: 1em;
+  font-family: "krub", sans-serif;
 }
 
 h1,
@@ -128,6 +129,69 @@ nav li a:hover {
 
 }
 
+/* Highlights Section */
+.highlights {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.highlights h2 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 2rem;
+  color: #4CAF50;
+}
+
+.highlight-items {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.highlight-item {
+  background: #e8f5e9;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-item h3 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.3rem;
+  color: #274e13;
+
+}
+
+.highlight-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.highlight-item2 {
+
+  background: #e8f5e9;
+  border-radius: 8px;
+  padding: 20px;
+  width: 650px;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-item2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+
+
+
+}
+
+/* Form Stuff */
 .contact-form-section {
   margin-top: 50px;
   display: flex;
