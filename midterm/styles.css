@@ -157,13 +157,14 @@ main {
 }
 
 /* Highlights Section */
- .highlight {
+ .highlights {
    margin: 40px auto;
    max-width: 800px;
    padding: 20px;
    background-color: lightcoral;
    border-radius: 10px;
    box-shadow: 0 0 0 rgba(0, 0, 0, .5);
+   text-align: center;
 }
   aside {
    margin: 40px auto;
