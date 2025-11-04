@@ -157,7 +157,7 @@ main {
 }
 
 /* Highlights Section */
- .highlights {
+ .highlight-items {
    margin: 40px auto;
    max-width: 800px;
    padding: 20px;
@@ -168,7 +168,7 @@ main {
 }
 
 .highlights p{
-  font-family: "karb", serif;
+  font-family: "krub", serif;
   font-size: 2em;
 }
 
