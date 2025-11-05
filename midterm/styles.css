@@ -112,7 +112,7 @@ main {
 
 }
 
-.hero {
+.main {
   background-image: url('images/Hawaii.jpg');
   background-size: cover;
   background-position: center;
@@ -121,13 +121,13 @@ main {
   padding: 80px 20px;
 }
 
-.hero h1 {
+.main h1 {
   font-family: 'Inter', serif;
   font-size: 2.5rem;
   font-weight: 800;
 }
 
-.hero p {
+.main p {
   font-size: 1.2rem;
   margin: 10px 0 20px;
 }
