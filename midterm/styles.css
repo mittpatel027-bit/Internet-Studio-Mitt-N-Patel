@@ -203,7 +203,7 @@ main {
 }
 
 .contact-form-container {
-  background-color: #fff;
+  background-color: #DCA;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -222,8 +222,9 @@ main {
 
 label {
   font-weight: bold;
-  color: #4CAF50;
-  margin-bottom: 5px;
+  font-family: "Krub", sans-serif;
+  color: #30525C;
+  margin-bottom: 10px;
   display: block;
 }
 
@@ -237,7 +238,7 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-  border-color: #4CAF50;
+  border-color: #30525C;
 }
 
 textarea {
@@ -245,10 +246,11 @@ textarea {
 }
 
 button.cta {
-  background-color: #4CAF50;
+  background-color: #4C848D;
   color: white;
   border: none;
   padding: 12px;
+  font-family: "Krub", sans-serif;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 5px;
@@ -256,7 +258,7 @@ button.cta {
 }
 
 button.cta:hover {
-  background-color: #3a8d40;
+  background-color: #30525C;
 }
 
 /* Contact Information */
@@ -267,7 +269,9 @@ button.cta:hover {
 
 .contact-info h2 {
   font-size: 2rem;
-  color: #4CAF50;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  color: #C35627;
 }
 
 .contact-info ul {
