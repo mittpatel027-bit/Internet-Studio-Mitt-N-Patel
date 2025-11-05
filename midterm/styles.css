@@ -258,8 +258,8 @@ button.cta:hover {
 /* Contact Information */
 .contact-info {
   text-align: center;
-  margin-top: 200px;
-  
+  margin-top: 20px;
+  padding: 10;
 }
 
 .contact-info h2 {
