@@ -159,12 +159,6 @@ header nav ul li a:hover {
   color: #C35627;
 }
 
-main {
-  margin-top: 80px;
-  padding: 20px;
-
-}
-
 /* Highlights Section */
  .highlights {
    margin: 40px auto;
@@ -264,11 +258,12 @@ button.cta:hover {
 /* Contact Information */
 .contact-info {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 200px;
+  
 }
 
 .contact-info h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Inter", sans-serif;
   font-weight: 800;
   color: #C35627;
@@ -281,7 +276,7 @@ button.cta:hover {
 
 .contact-info li {
   font-size: 1.2rem;
-  margin: 10px 0;
+  margin: 10px 10;
 }
 
 /* Footer */
