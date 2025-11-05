@@ -189,6 +189,13 @@ header nav ul li a:hover {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.highlight-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
 /* Form Stuff */
 .contact-form-section {
   margin-top: 50px;
