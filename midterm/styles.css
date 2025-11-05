@@ -100,7 +100,6 @@ small,
 }
 
 body {
-  font-family: 'Lora', serif;
   color: #333;
   background-color: #f7f7f7;
   line-height: 1.6;
@@ -116,19 +115,19 @@ main {
   background-image: url('images/Hawaii.jpg');
   background-size: cover;
   background-position: center;
-  color: #fff;
+  color: #C35626;
   text-align: center;
-  padding: 80px 20px;
+  padding: 80px 10px;
 }
 
 .main h1 {
   font-family: 'Inter', serif;
-  font-size: 2.5rem;
-  font-weight: 800;
+  font-size: 4rem;
+  font-weight: 900;
 }
 
 .main p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin: 10px 0 20px;
 }
 
