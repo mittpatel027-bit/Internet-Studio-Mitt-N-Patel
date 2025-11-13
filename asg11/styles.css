@@ -75,6 +75,20 @@ small,
   font-size: 0.64em;
 }
 
+/* Color */
+h1{ 
+  text-allign: center;
+  color: #B5513C
+}
+
+h2{
+  color: #EBC48C
+}
+
+p {
+  color:#EBC48C
+}
+
 /* Gallery container using Flexbox */
 .gallery {
   display: flex;
@@ -86,7 +100,7 @@ small,
 
 /* Team cards */
 .team {
-  background-color: rgba(21, 63, 73, 0.7);
+  background-color:#3C5E18;
   padding: 1em;
   border-radius: 10px;
   max-width: 250px;
@@ -109,6 +123,6 @@ small,
 
 /* Background */
 body {
-  background-color: #6f9fad;
+  background-color: #9BA06F;
   background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
 }
