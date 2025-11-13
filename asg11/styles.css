@@ -54,6 +54,7 @@ h1,
   font-weight: 700;
   margin-top: 0;
   font-size: 3.05em;
+  text-align: center;
 }
 
 h2,
@@ -76,9 +77,8 @@ small,
 }
 
 /* Color */
-h1{ 
-  text-allign: center;
-  color: #B5513C
+h1 { 
+  color: #9b2a13
 }
 
 h2{
