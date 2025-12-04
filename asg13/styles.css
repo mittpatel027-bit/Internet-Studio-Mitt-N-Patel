@@ -1,4 +1,3 @@
-/* open-sans-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Open Sans';
@@ -34,7 +33,7 @@ body {
 }
 
 p {
-  font-size: 1em;
+  font-size: .5em;
   font-family: "Belgrano", serif;
 }
 
@@ -58,10 +57,10 @@ h1,
 }
 
 h2,
-.text-size-h2 { font-size: 2.44em; }
+.text-size-h2 { font-size: 1.44em; }
 
 h3,
-.text-size-h3 { font-size: 1.95em; }
+.text-size-h3 { font-size: .95em; }
 
 h4,
 .text-size-h4 { font-size: 1.56em; }
@@ -78,15 +77,15 @@ small,
 
 /* Color */
 h1 { 
-  color: #9b2a13
+  color: #ffd7a2
 }
 
 h2{
-  color: #EBC48C
+  color: #ff7b36
 }
 
 p {
-  color:#EBC48C
+  color:#ffe5bf
 }
 
 /* Gallery container using Flexbox */
@@ -100,20 +99,20 @@ p {
 
 /* Team cards */
 .job {
-  background-color:#3C5E18;
+  background-color:#4e6283;
   padding: 1em;
   border-radius: 10px;
-  max-width: 250px;
+  max-width: 700px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease;
 }
 
 .sony {
-  width: 200px; /* Desired cropped width */
-  height: 150px; /* Desired cropped height */
-  object-fit: cover; /* Crops and scales the image to fill the container */
-  object-position: center; /* Centers the image within the container */
+  width: 400px; 
+  height: 150px; 
+  object-fit: cover; 
+  object-position: center; 
 }
 
 /* Hover effect */
@@ -130,6 +129,6 @@ p {
 
 /* Background */
 body {
-  background-color: #9BA06F;
+  background-color: #c0ffd6;
   background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
 }
