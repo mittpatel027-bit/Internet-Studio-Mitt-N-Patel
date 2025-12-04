@@ -109,6 +109,13 @@ p {
   transition: transform 0.3s ease;
 }
 
+.sony {
+  width: 200px; /* Desired cropped width */
+  height: 150px; /* Desired cropped height */
+  object-fit: cover; /* Crops and scales the image to fill the container */
+  object-position: center; /* Centers the image within the container */
+}
+
 /* Hover effect */
 .team:hover {
   transform: scale(1.05);
